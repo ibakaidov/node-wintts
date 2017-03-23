@@ -1,6 +1,6 @@
 {
   "name": "wintts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TTS module for windows",
   "main": "index.js",
   "scripts": {

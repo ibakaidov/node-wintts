@@ -2,8 +2,11 @@
 TTS module for windows
 
 ## Usage
-``js
-    const wintts = require('wintts')
-    wintts('Hello, world!', (err)=>{})
+```javascript
+const wintts = require('wintts');
 
-``
+(async()=>{
+	const a = await wintts('Hello, world!');
+	console.log(a);
+})();
+```

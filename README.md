@@ -1,5 +1,5 @@
 # node-wintts
-TTS module for windows
+TTS module for Windows
 
 ## Usage
 ```javascript

@@ -1,11 +1,15 @@
 const execFile = require('child_process').execFile;
-const sep = require('path').sep;
-const bin = __dirname+sep+'tts.exe';
+const bin = require('path').normalize(`${__dirname}/bin/tts.exe`);
 
-function say(text, cb) {
-    
-    execFile(bin, [text], cb)
+module.exports = say = (text='')=>{
+	text = `${text}`;
+	if(text.trim() === '')return false;
+	
+	const child = execFile(bin, [text]);
+	
+	return new Promise((resolve, reject)=>{
+		child.addListener('error', ()=>reject(false));
+		child.addListener('exit', ()=>resolve(true));
+	});
+};
 
-}
-
-module.exports=say;

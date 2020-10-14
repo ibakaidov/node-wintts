@@ -1,25 +1,25 @@
 {
-  "name": "wintts",
-  "version": "0.1.0",
-  "description": "TTS module for windows",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ibakaidov/node-wintts.git"
-  },
-  "keywords": [
-    "tts",
-    "windows",
-    "say",
-    "winsay"
-  ],
-  "author": "ibakaidov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ibakaidov/node-wintts/issues"
-  },
-  "homepage": "https://github.com/ibakaidov/node-wintts#readme"
+	"name": "wintts",
+	"version": "0.1.1",
+	"description": "TTS module for windows",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ibakaidov/node-wintts.git"
+	},
+	"keywords": [
+		"tts",
+		"windows",
+		"say",
+		"winsay"
+	],
+	"author": "ibakaidov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ibakaidov/node-wintts/issues"
+	},
+	"homepage": "https://github.com/ibakaidov/node-wintts#readme"
 }
